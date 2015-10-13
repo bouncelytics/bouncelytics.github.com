@@ -15,13 +15,84 @@
  * Setup
  */
 @import "vars";
+@import "mixins";
 @import "inuit.css/inuit";
 
 
-
-
-
 /**
- * She’s all yours, cap’n... Begin importing your stuff here.
+ * Main Styling
  */
-//@import "ui/example";
+.highlight {
+	color: $color-accent !important;
+}
+
+.container {
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.vertical-center {
+	@include vertical-align();
+}
+
+.top {
+	height: 100vh;
+	min-height: 500px;
+	background-image: -webkit-linear-gradient(top left, $color-dark-blue 0%, $color-super-blue 100%);
+	background-image: -o-linear-gradient(top left, $color-dark-blue 0%, $color-super-blue 100%);
+	background-image: linear-gradient(to bottom right, $color-dark-blue 0%, $color-super-blue 100%);
+}
+
+.header {
+	border-bottom: 1px solid $color-medium-blue;
+	overflow: hidden;
+}
+
+.header__logo {
+	display: inline-block;
+	width: 113px;
+	height: 17px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.header__contact {
+	float: right;
+	font-size: 11px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.pitch {
+	height: calc(100% - 78px);
+	text-align: center;
+}
+
+.main-heading {
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.sub-heading {
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.cta {
+	display: inline-block;
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 14px;
+	background: $color-accent;
+	border-radius: 40px;
+}

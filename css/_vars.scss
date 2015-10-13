@@ -23,8 +23,8 @@
  * and introducing objects and abstractions is as simple as switching the
  * following variables to `true`.
  */
-$use-grids:         false;
-$use-flexbox:       false;
+$use-grids:         true;
+$use-flexbox:       true;
 $use-columns:       false;
 $use-nav:           false;
 $use-options:       false;
@@ -59,7 +59,7 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-
+$base-spacing-unit: 30px;
 
 
 
@@ -69,3 +69,9 @@ $use-greybox:       false;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+
+$color-super-blue: #1f2532;
+$color-dark-blue: #47506e;
+$color-medium-blue: #5f6678;
+
+$color-accent: #66BB6A;
