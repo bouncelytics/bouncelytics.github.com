@@ -25,4 +25,3 @@ your project, whilst also maintaining your inuit.css submodule.
 For a more detailed overview on what inuit.css is, and how to install and use
 it, please refer to the documentation in the README in
 [the main inuit.css repository](https://github.com/csswizardry/inuit.css).
->>>>>>> bd9c9d5... use inuit web template
