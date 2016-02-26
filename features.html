@@ -63,6 +63,18 @@
 			</li>
 		</ul>
 	</div>
+
+	<input id="mobile-menu-switcher-checkbox" type="checkbox">
+	<label for="mobile-menu-switcher-checkbox" class="mobile-menu-switcher"></label>
+
+	<div class="mobile-menu">
+		<ul class="nav  nav--stacked">
+			<li  ><a href="/pricing">Pricing</a></li>
+			<li  class="active"  ><a href="/features">Features</a></li>
+			<li><a href="http://blog.bouncelytics.com">Blog</a></li>
+			<li><a href="http://app.bouncelytics.com/login">Login</a></li>
+		</ul>
+	</div>
 </header>
 
     <section class="feature-overview">
@@ -83,50 +95,6 @@
 
 <section class="feature-maps">
 	<div class="container">
-		<h2>We have the best heatmaps.</h2>
-
-		<div class="grid">
-			<div class="grid__item four-tenths">
-				<!-- <div class="video-container  video-container--center">
-					<video id="clickmap-video" autoplay="autoplay" width="100%" loop>
-						<source src="/videos/clickmap.webm" type="video/webm">
-						<source src="/videos/clickmap.mp4" type="video/mp4">
-					</video>
-					<script>
-						document.getElementById('clickmap-video').playbackRate = 2.0;
-					</script>
-				</div> -->
-				<img src="images/features/clickmap.jpg" alt="">
-				<h4>Advance Clicks Analytics</h4>
-				<p>
-					Our platform powers you with Click Analytics for every button and link on your
-					page enabling you to track how many users are clicking your link and which
-					channels are most effective.
-				</p>
-			</div><div class="grid__item one-tenth">
-			</div><div class="grid__item four-tenths">
-				<!-- <div class="video-container  video-container--center">
-					<video id="scrollmap-video" autoplay="autoplay" width="100%" loop>
-						<source src="/videos/scrollmap.webm" type="video/webm">
-						<source src="/videos/scrollmap.mp4" type="video/mp4">
-					</video>
-					<script>
-						document.getElementById('scrollmap-video').playbackRate = 2.0;
-					</script>
-				</div> -->
-				<img src="images/features/scrollmap.jpg" alt="">
-				<h4>Scroll Depth Analytics</h4>
-				<p>
-					Stop worrying if people are reading your content. Our scroll maps tell you how
-					far visitors are scrolling down your page and how much engagement each section is having.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="feature-maps section-dark">
-	<div class="container">
 		<div class="grid">
 			<div class="grid__item four-tenths">
 				<h4>Analyze Bounced Visitors</h4>
@@ -138,10 +106,36 @@
 			</div><div class="grid__item four-tenths">
 				<h4>Time Tracking</h4>
 				<p>
-					Hit-based Analytics platform like Google Analytics are limited to
-					tracking total time of users who visited another page. With our
-					platform, you get the real active time of every visitor that was
+					Hit-based analytics platform like Google Analytics are limited to
+					tracking total time of only those visitors who visit another page. With
+					Bouncelytics, you get the real active time of every visitor which was
 					spent in using the site.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature-maps">
+	<div class="container">
+		<h2>Know What's Making Your Visitors Leave.</h2>
+
+		<div class="grid">
+			<div class="grid__item four-tenths">
+				<img src="images/features/clickmap.jpg" alt="">
+				<h4>Advance Clicks Analytics</h4>
+				<p>
+					Bouncelytics powers you with Click Analytics for every button and link on your
+					page. This enables you to track the number of visitors who are clicking on your links
+					and also learn about the traffic channels which are most effective.
+				</p>
+			</div><div class="grid__item one-tenth">
+			</div><div class="grid__item four-tenths">
+				<img src="images/features/scrollmap.jpg" alt="">
+				<h4>Scroll Depth Analytics</h4>
+				<p>
+					Stop guessing if your visitors are reading your content. Our scroll depth analytics tells you how
+					far visitors scroll down the page and how much engagement each section has.
 				</p>
 			</div>
 		</div>
@@ -152,12 +146,12 @@
 	<div class="container">
 		<div class="grid">
 			<div class="grid__item four-sixths">
-				<h2>Engagement</h2>
+				<h2>Measure Engagement.</h2>
 				<img src="images/features/engagement.png" alt="">
 				<p>
-					If you are wondering why your bounce rate is too high? you are asking the
-					wrong question. Bounce rate doesn't tell why people didn't visit another
-					page or did your visitors actually used the site?
+					If you are wondering why your bounce rate is too high then you are asking the
+					wrong question. Bounce rate doesn't tell why your visitors didn't visit any other
+					page or if your visitors actually used the site.
 				</p>
 			</div>
 		</div>
@@ -168,7 +162,7 @@
 	<div class="container">
 		<div class="grid">
 			<div class="grid__item four-tenths">
-				<h4>Engagement Rate </h4>
+				<h4>Engagement Rate</h4>
 				<p>
 					With engagement tracking you can get actionable data about how many
 					users interacted with your site before quitting.
@@ -177,14 +171,15 @@
 			</div><div class="grid__item four-tenths">
 				<h4>Bounce Time</h4>
 				<p>
-					Forget speculating when visitor quit.  Our app, shows you exactly
-					where your visitors quit. 
+					Forget speculating when visitor quit. Bouncelytics shows you exactly
+					where your visitors quit.
 				</p>
 			</div>
 		</div>
 
 	</div>
 </section>
+
 
 <section class="signup-section section-dark">
 	<div class="container">
@@ -200,7 +195,7 @@
 </section>
 		<footer class="footer">
 	<div class="container">
-		<div class="grid">
+		<div class="grid  grid--center">
 			<div class="grid__item one-fifth">
 				<p class="footer__heading">Product</p>
 
@@ -208,22 +203,7 @@
 					<li><a href="/pricing">Pricing</a></li>
 					<li><a href="/features">Features</a></li>
 					<li><a href="https://blog.bouncelytics.com">Blog</a></li>
-				</ul>
-			</div><div class="grid__item one-fifth">
-				<p class="footer__heading">Company</p>
-
-				<ul class="nav  nav--stacked  footer__nav">
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Logos and Badges</a></li>
 					<li><a href="mailto:hello@bouncelytics.com">Contact Us</a></li>
-				</ul>
-			</div><div class="grid__item one-fifth">
-				<p class="footer__heading">Help</p>
-
-				<ul class="nav  nav--stacked  footer__nav">
-					<li><a href="#">Getting Started</a></li>
-					<li><a href="#">Feedback</a></li>
-					<li><a href="#">FAQs</a></li>
 				</ul>
 			</div><div class="grid__item one-fifth">
 				<p class="footer__heading">Connect</p>
